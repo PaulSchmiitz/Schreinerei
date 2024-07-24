@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header, nav, main, footer {
+    padding: 5px;
+}
+
+header {  
+    background: rgb(202,227,95);
+    background: linear-gradient(90deg, rgba(202,227,95,1) 0%, rgba(191,196,148,1) 100%);
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background: rgb(217,171,130);
+    background: linear-gradient(90deg, rgba(217,171,130,1) 0%, rgba(191,140,111,1) 100%);   
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+footer {
+    background: rgb(202,227,95);
+    background: linear-gradient(90deg, rgba(202,227,95,1) 0%, rgba(191,196,148,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+}
+
+p {
+    padding-bottom: 20px;
+} 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
+.fließtext {
+    width: 600px; 
+    text-align: center; 
+}
+
+.headerbild {
+    position: relative;
+    color: white;
+    
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .fließtext img {
+    width: 300px;
+    height: flex;
+    border:4px solid #A7BF50;
+    border-radius: 2%;
+}
+
+#products {
+    padding: 20px;
+}
+
+.product {
+    display: inline-block;
+    margin: 15px;
+    text-align: center
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: block;
+    border:4px solid #A7BF50;
+    border-radius: 2%;
+}
+.rechtsbündig {
+    width: 600px; 
+    text-align: left; 
+}
+
+.öffnungszeiten {
+    max-width: 450px;
+    margin: 50px auto;
+    background-color: rgba(191,196,148,1);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.öffnungszeiten h2 {
+    
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+td:first-child {
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+td:last-child {
+    text-align: right;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+#info h2{
+    color:rgba(191,196,148,1)
+}
+
+#info p {
+    padding: 0;
+}
+
+.info {
+    padding-bottom: 20px;
+}
